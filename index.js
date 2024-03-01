@@ -55,7 +55,7 @@ client.on('ready', async () => {
 
     const r = new Discord.RichPresence()
       .setApplicationId('928000104378548224')
-      .setType('LISTENING')
+      .setType('STREAMING')
       .setURL('https://youtu.be/xTZk2G9-6co?si=xpE-kzJivOITFzmQ')
       .setState(`${dwada}`)
       .setName(`levy`)
