@@ -29,7 +29,11 @@ client.on('ready', async () => {
   setInterval(() => {
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
 
-    const change = ['https://cdn.discordapp.com/attachments/1199386824582373516/1202226252967333908/feac57129dbae1df38a8e098ed88bcce.png?ex=65e85ef2&is=65d5e9f2&hm=da3b605d9d274069b28f93bab277e7057d1614a7dadf0bcbf7978ebffce2478c&'];
+    const change = ['https://media.discordapp.net/attachments/1116694463658598412/1201399397582376960/f8f1d39b8527f261926ea4d6ca88c43f.gif?ex=65ee9761&is=65dc2261&hm=73dc7e27b3bd90b9fd818e6f2d215582ab8481c28c7cfa5453bcc3aabc0026ec&=',
+                    'https://media.discordapp.net/attachments/1116694463658598412/1201399383355314266/blue-lock-isagi.gif?ex=65ee975d&is=65dc225d&hm=bba587c38bcb3fdac0934485317e0a8d4123facc404c05354a218ba791f19ed5&=',
+                    'https://media.discordapp.net/attachments/1116694463658598412/1201399329890521138/gojo-six-eyes.gif?ex=65ee9751&is=65dc2251&hm=2d16c799f905ec860a0970a42675bed3552be9a155565f0ac3c891a40ef5dc77&=',
+                    'https://media.discordapp.net/attachments/1116694463658598412/1201399307279015936/mob-psycho100-mob-psycho.gif?ex=65ee974b&is=65dc224b&hm=9ba8992c530bf14d525c9f82fecb45402a8fb138b504b0f03236fd82551a14f5&=',
+                   ];
     const poop = ['https://media.discordapp.net/attachments/889976848581287946/1192463032610193610/a_f3bcc76b8af98fb87ab30d8d82376ac0.gif?ex=65e9c43d&is=65d74f3d&hm=41dfdde129cfc0d8b2b2f3db3d010cebf19747865f64ebd6f936dd75dd61d1d9&=&width=350&height=350'];
     const change2 = ['มีบอทเจ๋งๆ ', 'มีเม็ดม่วง', 'AAAA', 'Love na'];
     const change3 = ['⏰', '⏰', '⏰', '⏰'];
@@ -56,7 +60,6 @@ client.on('ready', async () => {
       .setState(`${dwada}`)
       .setName(`levy`)
       .setDetails(`${ap}${getTime()} ${moment().format('- DD/MM/YYYY')}`)
-      .setAssetsSmallImage(`${popp}`)
       .setAssetsLargeImage(`${ssss}`)
       .setAssetsLargeText(`🌡️ ${operator === '+' ? (global.temp + num).toFixed(1) : (global.temp - num).toFixed(1)} °C | 🍃 ${operator === '+' ? (global.wind + num).toFixed(1) : (global.wind - num).toFixed(1)} m/s`)
       .addButton(`${ioii}`, `${oooi}`)
